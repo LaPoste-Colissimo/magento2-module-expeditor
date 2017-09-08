@@ -11,10 +11,8 @@
 namespace LaPoste\ExpeditorInet\Model\Config\Source;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
-use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\Option\ArrayInterface;
 use Magento\Shipping\Model\CarrierFactory;
-use Magento\Store\Model\ScopeInterface;
 
 /**
  * Config source for shipping carriers.

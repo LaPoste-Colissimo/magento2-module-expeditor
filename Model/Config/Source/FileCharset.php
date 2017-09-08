@@ -10,7 +10,6 @@
  */
 namespace LaPoste\ExpeditorInet\Model\Config\Source;
 
-use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\Option\ArrayInterface;
 
 /**
