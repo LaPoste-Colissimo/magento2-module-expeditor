@@ -116,9 +116,11 @@ class Import extends Action
      */
     public function execute()
     {
-        if ($this->getRequest()->isPost() && !empty($_FILES['import_file']['tmp_name'])) {
+        $fileInfo = $this->getRequest()->getFiles('import_file');
+
+        if ($this->getRequest()->isPost() && isset($fileInfo['tmp_name'])) {
             try {
-                $fileName = $_FILES['import_file']['tmp_name'];
+                $fileName = $fileInfo['tmp_name'];
                 $trackTitle = $this->getRequest()->getPost('track_title');
                 $this->importShipmentsFromCsv($fileName, $trackTitle);
             } catch (LocalizedException $e) {
