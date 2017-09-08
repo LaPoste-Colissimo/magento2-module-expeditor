@@ -19,4 +19,4 @@ composer require laposte-colissimo/magento2-module-expeditor
 Documentation
 -------------
 
-The documentation of the module will be available soon (in French).
+The documentation of the module is available [on dropbox](https://www.dropbox.com/sh/1lin5m38dpkhmvl/AADb7tQ6Vv-ysdk20f6gIapGa?dl=0) (in French).
